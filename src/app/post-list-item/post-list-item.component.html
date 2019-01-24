@@ -13,8 +13,10 @@
             <p>{{ content }}</p>
 
             <div>
-                <button class="btn btn-success" (click)="onLoveIt()">I love It</button>
-                <button class="btn btn-danger" (click)="onDontLoveIt()"> I don't love it</button>
+                <button class="btn btn-success" (click)="onLoveIt()" style="margin-right: 10px;">I love It</button>
+                <button class="btn btn-danger" (click)="onDontLoveIt()" style="margin-right: 10px;"> I don't love it
+                </button>
+                <span>Love Its = {{ loveIts }}</span>
             </div>
         </div>
     </div>

@@ -12,7 +12,6 @@ export class PostListItemComponent implements OnInit {
     @Input() loveIts: number;
     @Input() created_at: Date;
 
-
     onLoveIt() {
         this.loveIts++;
         console.log(this.loveIts);
